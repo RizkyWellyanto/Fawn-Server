@@ -1,0 +1,25 @@
+{
+  "name": "fawn-server",
+  "version": "1.0.0",
+  "description": "The back-end part of an AI/ML/Algorithm Suggestion App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RizkyWellyanto/Fawn-Server.git"
+  },
+  "author": "Muhammad Rizky Wellyanto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RizkyWellyanto/Fawn-Server/issues"
+  },
+  "homepage": "https://github.com/RizkyWellyanto/Fawn-Server#readme",
+  "dependencies": {
+    "amazon-product-api": "^0.2.3",
+    "ebay-api": "^0.1.1",
+    "express": "^4.13.1",
+    "passport": "^0.2.2"
+  }
+}
