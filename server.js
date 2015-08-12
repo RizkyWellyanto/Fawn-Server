@@ -5,6 +5,7 @@
 // modules
 var express = require('express');
 var path = require('path');
+var api = require(path.join(__dirname, 'routes/api'));
 
 // set server config
 var app = express();
@@ -15,7 +16,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('models', path.join(__dirname, 'models'));
 
 // route to api.js
-app.use('/api', require('./routes/api.js'));
+app.use('/api', api);
 
 // run the server
 app.listen(port, function () {
