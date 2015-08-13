@@ -20,6 +20,7 @@
     "amazon-product-api": "^0.2.3",
     "ebay-api": "^0.1.1",
     "express": "^4.13.1",
-    "passport": "^0.2.2"
+    "passport": "^0.2.2",
+    "yql": "^1.0.2"
   }
 }
